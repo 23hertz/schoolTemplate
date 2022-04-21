@@ -1,0 +1,312 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 960px;
+    max-width: 100%;
+    margin:0px auto;position: relative;
+}
+
+/* Header Section*/
+header
+{
+    padding: 30px;
+    text-align: center;
+}
+
+.header-first
+{
+    display: flex;
+    justify-content:space-between;   
+}
+
+.navbar
+{
+    margin:0;
+    padding: 0;
+}
+
+.navbar li
+{
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a {
+    display: block;
+    padding-left: 100px;
+    text-decoration: none;
+    color:#000;
+    font-size:20px;
+  }
+
+  header .img-disp
+  {
+      max-width: 100%;
+      height:auto;
+      box-shadow: 10px 10px 20px #ccc;
+      margin-top: 20px;
+  }
+
+/* Main Section*/
+
+main
+{
+    padding: 30px;
+    text-align: center;
+}
+
+h2
+{
+    font-size:35px ;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-content
+{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: auto;
+    text-align: justify;
+}
+
+.main-content h3
+{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.main-content p
+{
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.same
+{
+    width: 30%;
+    box-shadow: 20px 20px 50px #afafaf, -20px -20px 50px #ffffff;
+    margin:20px;
+    text-align: justify;
+}
+
+
+/* Service */
+.service
+{
+    margin-top:50px;
+}
+
+
+.row-two
+{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    margin:10px;
+}
+
+.ser
+{
+    background-color: rgb(252, 252, 252);
+    margin: 10px;
+}
+
+
+.ser img
+{
+    width: 100%;
+    padding: 20px;
+}
+
+.ser h3
+{
+    font-size: 25px;
+    text-align: center;
+}
+.ser p
+{
+    padding-top: 10px;
+}
+
+.contact
+{
+    height: auto;
+    text-align: center;
+    margin-top:15px;
+}
+
+.form-input
+{
+    width: 100%;
+}
+
+.form-input:hover
+{
+    border:none;
+}
+
+input[type=text]
+{
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+    height: 60px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+textarea
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+
+input[type=text]
+{
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+    height: 60px;
+    font-size: 15px;
+}
+
+input[type=submit]
+{
+    display: block;
+    margin: 0px auto;
+    height: 60px;
+    font-size: 15px;
+    background: green;
+    width:50%;
+    border:none;
+    font-size: 20px;
+    color:#fff;
+}
+
+
+
+.hrule
+{
+    width:1024px;
+    max-width:100%;
+    margin:0px auto;
+    box-shadow: 20px 20px 50px #afafaf, -20px -20px 50px #ffffff;
+
+}
+
+
+/*  Footer Section */
+footer
+{
+    padding: 20px;
+    text-align: center;
+    width: 1024px;
+    max-width: 100%;
+    margin:0px auto;
+}
+
+.top-foot
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fst
+{
+    width:300px;
+    text-align: justify;
+    padding:10px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    .header-first
+     {
+      display: flex;
+      flex-direction: column;
+     }
+
+     .navbar
+    {
+        margin-top:20px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+     .navbar li a {
+        display: block;
+        padding-left: 40px;
+        color:#000;
+        font-weight: bold;
+        font-size:20px;
+      }
+
+      .main-content
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: space-around;
+        width: auto;
+        text-align: justify;
+      }
+
+    .same
+    {
+    width: 90%;
+    box-shadow: 20px 20px 50px #afafaf, -20px -20px 50px #ffffff;
+    margin:20px;
+    text-align: justify;
+     }
+
+    .main-content h3
+    {
+        font-size: 20px;
+        text-align: center; 
+        padding-top: 30px;  
+    }
+
+    .row-two
+    {
+        margin-top: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        margin:10px;
+    }
+
+    .top-foot
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fst h3
+{
+    text-align: center;
+}
+
+.hlast
+{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+}  
